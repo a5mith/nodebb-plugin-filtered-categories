@@ -13,7 +13,7 @@
 	"less": [
 		"./static/style.less"
 	],
-    "scripts": [ "./static/lib/main.js",
-                "./static/lib/jquery.mixitup.js"
-                ]
+    "scripts": [ "./static/lib/jquery.mixitup.js",
+        "./static/lib/main.js"
+               ]
 }
