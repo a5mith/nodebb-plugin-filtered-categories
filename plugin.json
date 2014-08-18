@@ -1,0 +1,19 @@
+{
+	"id": "nodebb-plugin-filtered-categories",
+	"name": "Classic forum homepage for NodeBB",
+	"description": "Filtered Categories Homepage for NodeBB",
+	"url": "https://github.com/a5mith/nodebb-plugin-filtered-categories",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "action:app.load", "method": "init"
+		}
+	],
+	"templates": "./static/templates",
+	"less": [
+		"./static/style.less"
+	],
+    "scripts": [ "./static/lib/main.js",
+                "./static/lib/jquery.mixitup.js"
+                ]
+}

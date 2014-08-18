@@ -1,0 +1,42 @@
+{
+  "name": "nodebb-plugin-filtered-categories",
+  "version": "0.0.1",
+  "description": "Classic forum homepage for NodeBB",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a5mith/nodebb-plugin-filtered-categories"
+  },
+  "keywords": [
+    "mixitup",
+    "filtered",
+    "forum",
+    "homepage",
+    "categories"
+  ],
+  "author": {
+    "name": "a5mith",
+    "email": "35hzcommunity@gmail.com",
+    "website": "http://35hz.co.uk"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/a5mith/nodebb-plugin-filtered-categories/issues"
+  },
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "matchdep": "~0.1.1",
+        "grunt-contrib-uglify": "~0.2.4",
+        "grunt-contrib-jshint": "~0.7.1",
+        "grunt-notify": "~0.2.4",
+        "grunt-text-replace": "~0.3.8",
+        "grunt-bump": "~0.0.11",
+        "grunt-banner": "~0.2.0"
+    },
+    "engines": {
+        "node": ">=0.8.0"
+    }
+}
