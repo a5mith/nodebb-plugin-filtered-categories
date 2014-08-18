@@ -7,17 +7,17 @@
 
     <label>Sort:</label>
 
-    <button class="sort" data-sort="myorder:asc">Asc</button>
-    <button class="sort" data-sort="myorder:desc">Desc</button>
+    <button class="sort" data-sort="cid:asc">Asc</button>
+    <button class="sort" data-sort="cid:desc">Desc</button>
 </div>
 
 <div class="motd">
     <div widget-area="motd"></div>
 </div>
 <div class="row home" itemscope itemtype="http://www.schema.org/ItemList">
-    <div class="mix" no-widget-class="mix" no-widget-target="sidebar">
+    <div class="container" id="Container" no-widget-class="mix" no-widget-target="sidebar">
         <!-- BEGIN categories -->
-        <div class="{categories.class}" data-cid="{categories.cid}" data-numRecentReplies="{categories.numRecentReplies}">
+        <div class="mix {categories.class}" data-cid="{categories.cid}" data-numRecentReplies="{categories.numRecentReplies}">
             <meta itemprop="name" content="{categories.name}">
             <h4>
                 <!-- IF !categories.link -->
